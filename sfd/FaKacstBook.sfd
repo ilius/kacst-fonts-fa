@@ -3,7 +3,7 @@ FontName: FaKacstBook
 FullName: FaKacstBook
 FamilyName: FaKacstBook
 Weight: Medium
-Copyright: KACST holds the copyright of the included Arabic font which is donated under GPL by KACST. \nURW Design and Development holds the copyright of the included Latin font which is donated under GPL by URW.\n(c) 2008, Edited by Saeed Rasooli (saeed.gnu@gmail.com) to add full persian support, and renamed from KacstBook to FaKacstBook.
+Copyright: KACST holds the copyright of the included Arabic font which is donated under GPL by KACST. \nURW Design and Development holds the copyright of the included Latin font which is donated under GPL by URW.\n(c) 2008-2014, Edited by Saeed Rasooli <saeed.gnu@gmail.com> and added full Persian support, and renamed from KacstBook to FaKacstBook.
 Version: 1
 ItalicAngle: 0
 UnderlinePosition: -700
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1010121614
-ModificationTime: 1417199236
+ModificationTime: 1417281342
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -65,6 +65,7 @@ Lookup: 6 1 0 "'mset' Mark Positioning via Substitution in Arabic lookup 8"  {"'
 Lookup: 6 1 0 "'mset' Mark Positioning via Substitution in Arabic lookup 9"  {"'mset' Mark Positioning via Substitution in Arabic lookup 9 subtable"  } ['mset' ('arab' <'dflt' > ) ]
 Lookup: 1 1 0 "Single Substitution lookup 10"  {"Single Substitution lookup 10 subtable"  } []
 Lookup: 1 1 0 "Single Substitution lookup 11"  {"Single Substitution lookup 11 subtable"  } []
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'mset' Mark Positioning via Substitution in Arabic lookup 9 subtable"  0 0 0 1
  1 1 0
@@ -1462,7 +1463,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "KACST holds the copyright of the included Arabic font which is donated under GPL by KACST. +AAoA-URW Design and Development holds the copyright of the included Latin font which is donated under GPL by URW.+AAoAqQAA 2008, Edited by Saeed Rasooli (saeed.gnu@gmail.com) to add full persian support, and renamed from KacstBook to FaKacstBook." "" "FaKacstBook" "1" "" "1" "" "" "" "" "" "" "" "KACST holds the copyright of the included Arabic font which is donated under GPL by KACST. +AA0ACgAA-URW Design and Development holds the copyright of the included Latin font which is donated under GPL by URW. " "" "" "FaKacstBook" "FaKacstBook" 
+LangName: 1033 "" "" "FaKacstBook" "1" "" "1" "" "" "" "" "" "" "" "KACST holds the copyright of the included Arabic font which is donated under GPL by KACST. +AA0ACgAA-URW Design and Development holds the copyright of the included Latin font which is donated under GPL by URW. " "" "" "FaKacstBook" "FaKacstBook" 
 GaspTable: 3 8 2 16 1 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -1472,6 +1473,8 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 208 13 5
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65580 492
 
 StartChar: .notdef
@@ -23260,7 +23263,7 @@ StartChar: fa_two
 Encoding: 1778 1778 229
 Width: 795
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
